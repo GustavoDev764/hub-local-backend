@@ -1,0 +1,13 @@
+{
+  "portserve": 8000,
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "gustavo23",
+  "database": "hublocal",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": ["dist/**/migrations/*{.ts,.js}"],
+  "synchronize": true,
+  "jwtsecret": "b71939b9911ea40518c378ab206cba17"
+}
