@@ -22,7 +22,29 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## Codigo Criado por Gustavo José
+
+## Iniciar o projeto com docker
+é necessario ter o [docker](https://www.docker.com/products/docker-desktop) instalador na maquina
+<p>clone repositório</p>
+
+```sh
+git clone https://github.com/GustavoDev764/hub-local-backend.git
+```
+entrar na pasta hub-local-backend
+```sh
+cd hub-local-backend
+```
+
+iniciar a aplicação
+```sh
+docker-compose up
+```
+
+Acessar o projeto
+[http://localhost:8000](http://localhost:8000)
+
+## Iniciar o projeto manual
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
